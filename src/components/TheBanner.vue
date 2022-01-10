@@ -6,11 +6,11 @@
         semana
       </h2>
       <p class="main-banner__description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-        cupidatat non proident, sunt in c
+        Com o portal de eventos GetHere sua experiencia no mundo de eventos será mudada para sempre.
+        O portal utiliza filtros inteligentes e uma interface agradavel para te entregar o que você
+        esta buscando: Facilidade para se inscrever em atividades. Todas as suas inscrições ficam
+        armazenadas em um local só, facilitando o gerenciamneto de suas informações. O que está
+        esperando? Acessa agora os eventos do momento e venha ter uma experiencia inesquecivel!
       </p>
     </div>
     <div class="main-banner__figure">
@@ -94,7 +94,7 @@ export default {
           z-index: -1;
           width: calc(100% + var(--border-width) * 2);
           height: calc(100% + var(--border-width) * 2);
-          background: linear-gradient(60deg, #fcedd8,#ffb743, $baby-blue, $mid-blue, $dark-blue);
+          background: linear-gradient(60deg, #fcedd8, #ffb743, $baby-blue, $mid-blue, $dark-blue);
           background-size: 300% 300%;
           background-position: 0 50%;
           border-radius: calc(2 * var(--border-width));
@@ -103,6 +103,5 @@ export default {
       }
     }
   }
-
 }
 </style>
