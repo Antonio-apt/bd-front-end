@@ -189,7 +189,7 @@ const actions = {
         reject(error);
       });
   }),
-  [CREATE_GROUPS]: (payload) => new Promise((resolve, reject) => {
+  [CREATE_GROUPS]: (commit, payload) => new Promise((resolve, reject) => {
     http({
       method: 'post',
       url: '/groups',
@@ -214,7 +214,7 @@ const actions = {
         reject(error);
       });
   }),
-  [CREATE_CATEGORIES]: (payload) => new Promise((resolve, reject) => {
+  [CREATE_CATEGORIES]: (commit, payload) => new Promise((resolve, reject) => {
     http({
       method: 'post',
       url: '/categories',
@@ -239,7 +239,7 @@ const actions = {
         reject(error);
       });
   }),
-  [CREATE_HOST]: (payload) => new Promise((resolve, reject) => {
+  [CREATE_HOST]: (commit, payload) => new Promise((resolve, reject) => {
     http({
       method: 'post',
       url: '/hosts',
@@ -264,7 +264,7 @@ const actions = {
         reject(error);
       });
   }),
-  [CREATE_RAMO_HOST]: (payload) => new Promise((resolve, reject) => {
+  [CREATE_RAMO_HOST]: (commit, payload) => new Promise((resolve, reject) => {
     http({
       method: 'post',
       url: '/hostBranches',
@@ -289,7 +289,7 @@ const actions = {
         reject(error);
       });
   }),
-  [CREATE_LOCAL]: (payload) => new Promise((resolve, reject) => {
+  [CREATE_LOCAL]: (commit, payload) => new Promise((resolve, reject) => {
     http({
       method: 'post',
       url: '/places',
@@ -314,7 +314,7 @@ const actions = {
         reject(error);
       });
   }),
-  [CREATE_ADDRESS]: (payload) => new Promise((resolve, reject) => {
+  [CREATE_ADDRESS]: (commit, payload) => new Promise((resolve, reject) => {
     http({
       method: 'post',
       url: '/addresses',
