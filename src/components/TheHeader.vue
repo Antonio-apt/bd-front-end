@@ -148,7 +148,6 @@ export default {
 
   },
   created() {
-    // in app
     const that = this;
     const checkGauthLoad = setInterval(() => {
       that.isInit = that.$gAuth.isInit;

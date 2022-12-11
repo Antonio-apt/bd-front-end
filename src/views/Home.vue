@@ -4,7 +4,6 @@
     <HeaderSearchPreview v-if="showPreviewSearch" :search="searchEvent"/>
     <div class="home__content">
       <TheBanner/>
-      <!-- <Categories /> -->
       <FeaturedEvents />
     </div>
     <BaseCardModal />
@@ -20,8 +19,6 @@ import TheBanner from '@/components/TheBanner.vue';
 import BaseCardModal from '@/components/BaseCardModal.vue';
 import TheFooter from '../components/TheFooter.vue';
 import FeaturedEvents from '../components/FeaturedEvents.vue';
-
-// import Categories from '@/components/Categories.vue';
 
 export default {
   name: 'Home',
@@ -41,7 +38,6 @@ export default {
     TheBanner,
     BaseCardModal,
     TheFooter,
-    // Categories,
     FeaturedEvents,
   },
   watch: {

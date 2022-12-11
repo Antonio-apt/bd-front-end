@@ -5,7 +5,6 @@
       <EventsList :search="searchEvent" />
     </div>
     <BaseCardModal />
-
     <TheFooter />
   </div>
 </template>
