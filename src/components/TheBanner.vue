@@ -2,15 +2,16 @@
   <section class="main-banner">
     <div class="main-banner__text-area">
       <h2 class="main-banner__title">
-        Encontre o <span class="main-banner__emphasis"> melhor </span>passatempo para o seu final de
-        semana
+        <span class="main-banner__emphasis"> Encontre, participe e organize </span>
+         atividades universitárias da forma
+        <span class="main-banner__emphasis"> mais fácil </span> que você ja viu
+
       </h2>
       <p class="main-banner__description">
         Com o portal de eventos GetHere sua experiencia no mundo de eventos será mudada para sempre.
-        O portal utiliza filtros inteligentes e uma interface agradavel para te entregar o que você
-        esta buscando: Facilidade para se inscrever em atividades. Todas as suas inscrições ficam
-        armazenadas em um local só, facilitando o gerenciamneto de suas informações. O que está
-        esperando? Acessa agora os eventos do momento e venha ter uma experiencia inesquecivel!
+        O que está esperando?
+        Acessa agora os eventos do momento na sua universidade e venha ter uma experiencia
+        inesquecivel!
       </p>
     </div>
     <div class="main-banner__figure">
@@ -63,7 +64,11 @@ export default {
       color: $baby-blue;
       #{ $self }__emphasis {
         color: $dark_blue;
-        font-size: 2em;
+        font-size: 1.8em;
+        &:nth-child(1) {
+          font-size: 1.5em;
+          display: inline-block;
+        }
       }
     }
     #{ $self }__description {

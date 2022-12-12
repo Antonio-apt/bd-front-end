@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home sticky">
     <TheHeader v-model='searchEvent'/>
     <HeaderSearchPreview v-if="showPreviewSearch" :search="searchEvent"/>
     <div class="home__content">

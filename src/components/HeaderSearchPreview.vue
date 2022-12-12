@@ -155,7 +155,6 @@ export default {
       flex: 1 1 auto;
       min-width: 30%;
       box-shadow: rgba(128, 128, 133, 0.2) 0px 7px 29px 0px;
-      border-radius: 10px;
       border: 1px solid rgba(255, 255, 255, 0.18);
       max-width: 30%;
     }

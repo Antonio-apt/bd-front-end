@@ -1,5 +1,5 @@
 <template>
-  <div class="events">
+  <div class="events sticky">
     <TheHeader v-model='searchEvent'/>
     <div class="events__content">
       <EventsList :search="searchEvent" />
