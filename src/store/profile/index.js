@@ -5,15 +5,15 @@ import Vuex from 'vuex';
 import api from '@/utils/api';
 
 import {
+  SET_USER_DATA,
+} from '@/store/auth/actions';
+
+import {
   PROFILE_ACTIVITIES_REQUEST,
   PROFILE_ACTIVITIES_SUCCESS,
   PROFILE_ACTIVITIES_FAILED,
   UPDATE_PROFILE,
 } from './actions';
-
-import {
-  SET_USER_DATA,
-} from '@/store/auth/actions';
 
 const { http } = api.getInstance();
 
